@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   server:
-    image: wilsonlimcrr/code-push-server:version-5.7.999
+    image: wilsonlimcrr/code-push-server:version-5.7.997
     volumes:
       - data-storage:/data/storage
       - data-tmp:/data/tmp
